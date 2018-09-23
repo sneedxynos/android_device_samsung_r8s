@@ -21,6 +21,9 @@ DEVICE_PATH := device/samsung/x1slte
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Kernel
+TARGET_KERNEL_CONFIG := exynos9830-x1slte_defconfig
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := x1slte
 

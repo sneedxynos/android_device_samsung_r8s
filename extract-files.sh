@@ -7,6 +7,11 @@
 #
 
 function blob_fixup() {
+    case "${1}" in
+        vendor/lib*/libsec-ril*.so)
+            "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
+            ;;
+    esac
 }
 
 # If we're being sourced by the common script that we called,

@@ -52,7 +52,7 @@ $(call inherit-product-if-exists, vendor/samsung/r8s/r8s-vendor.mk)
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf \

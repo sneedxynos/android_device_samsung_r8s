@@ -22,6 +22,9 @@ function blob_fixup() {
         vendor/lib*/libsec-ril*.so)
             "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
             ;;
+        vendor/firmware/wlan/qcom_cfg.ini)
+            sed -i 's/swlan0/wlan1/g' "${2}"
+            ;;
     esac
 }
 

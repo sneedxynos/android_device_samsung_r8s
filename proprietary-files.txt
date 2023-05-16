@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G980FXXUFHWB1, unless pinned
+# Proprietary files - from Samsung package version G980FXXSGHWD4, unless pinned
 
 # Audio
 vendor/etc/LVACFS_Configuration.txt

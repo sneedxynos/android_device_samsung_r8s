@@ -1,4 +1,5 @@
-# Proprietary files - from Samsung package version G980FXXSGHWD4, unless pinned
+# All unpinned blobs are from G980FXXUHHWED
+# Vendor security patch level 2023-06-01
 
 # Audio
 vendor/etc/LVACFS_Configuration.txt

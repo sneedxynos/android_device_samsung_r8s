@@ -24,6 +24,7 @@ function blob_fixup() {
             ;;
         vendor/firmware/wlan/qcom_cfg.ini)
             sed -i 's/swlan0/wlan1/g' "${2}"
+            sed -i 's/gChannelBondingMode24GHz=0/gChannelBondingMode24GHz=1/g' "${2}"
             ;;
     esac
 }

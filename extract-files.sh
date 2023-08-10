@@ -33,8 +33,8 @@ fi
 
 set -e
 
-export DEVICE=x1slte
-export DEVICE_COMMON=universal990-common
+export DEVICE=r8s
+export DEVICE_COMMON=exynos990-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

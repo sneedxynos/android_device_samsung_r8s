@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/x1slte
+DEVICE_PATH := device/samsung/r8s
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml
 
 # Boot Animation
-TARGET_SCREEN_HEIGHT := 3200
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
 
 # Overlays 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Inherit from common
-$(call inherit-product, device/samsung/universal990-common/device-common.mk)
+$(call inherit-product, device/samsung/exynos990-common/device-common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product-if-exists, vendor/samsung/x1slte/x1slte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/r8s/r8s-vendor.mk)

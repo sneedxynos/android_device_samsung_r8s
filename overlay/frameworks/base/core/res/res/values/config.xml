@@ -41,12 +41,12 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -12 V 35 H 12 V 0 H 0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -62 V 88 H 62 V 0 H 0 Z</string>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props">
-        <item>720</item>
-        <item>2500</item>
-        <item>150</item>
+        <item>540</item>
+        <item>2150</item>
+        <item>250</item>
     </integer-array>
 </resources>

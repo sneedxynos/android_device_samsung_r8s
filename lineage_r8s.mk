@@ -37,10 +37,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=r8sxx \
-    PRIVATE_BUILD_DESC="r8sxx-user 11 RP1A.200720.012 G780FXXUDFWH5 release-keys"
+    PRIVATE_BUILD_DESC="r8sxx-user 11 RP1A.200720.012 G780FXXSDFWH8 release-keys"
 
-BUILD_FINGERPRINT := samsung/r8sxx/r8s:11/RP1A.200720.012/G780FXXUDFWH5:user/release-keys
+BUILD_FINGERPRINT := samsung/r8sxx/r8s:11/RP1A.200720.012/G780FXXSDFWH8:user/release-keys
 
 # Define PDA property for camera
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.build.PDA=G780FXXUDFWH5
+    ro.build.PDA=G780FXXSDFWH8

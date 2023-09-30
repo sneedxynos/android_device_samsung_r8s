@@ -1,5 +1,5 @@
-# All unpinned blobs are from G780FXXUDFWH5
-# Vendor security patch level 2023-08-01
+# All unpinned blobs are from G780FXXSDFWH8
+# Vendor security patch level 2023-09-01
 
 # Audio
 vendor/etc/dolby/dax-default.xml

@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+BOARD_WLAN_DEVICE := qcwcn
+
 DEVICE_PATH := device/samsung/r8s
 
 # Audio

@@ -44,6 +44,8 @@ vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
 vendor/firmware/cs40l20.bin
+vendor/firmware/htbtfw20.tlv
+vendor/firmware/htnv20.bin
 vendor/firmware/is_lib.bin
 vendor/firmware/is_mcu_fw.bin
 vendor/firmware/is_rta.bin

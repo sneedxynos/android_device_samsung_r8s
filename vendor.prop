@@ -1,0 +1,4 @@
+# Wifi
+ro.vendor.wifi.sap.interface=wlan1
+vendor.wifi.dualconcurrent.interface=wlan1
+wifi.concurrent.interface=wlan1

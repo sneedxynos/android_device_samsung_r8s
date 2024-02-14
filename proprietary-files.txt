@@ -63,8 +63,8 @@ vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # RIL - G780FXXS8CUJ5
--vendor/lib64/libsec-ril-dsds.so|ebfb6ccf7daf357b2758363b2bd0aa36be994050
--vendor/lib64/libsec-ril.so|306334324837d0e8a1eaf6b7c64380fba218e98a|da39a3ee5e6b4b0d3255bfef95601890afd80709
+-vendor/lib64/libsec-ril-dsds.so|6826bab499129f2d4c959f8286f0035ca34f8cdc
+-vendor/lib64/libsec-ril.so|8d70c48f1c652cfc4905c1707265b7e8c02c7b8e
 
 # Teegris Firmware
 vendor/tee/00000000-0000-0000-0000-000000534b4d

@@ -28,6 +28,10 @@ function blob_fixup() {
             sed -i 's/swlan0/wlan1/g' "${2}"
             sed -i 's/gChannelBondingMode24GHz=0/gChannelBondingMode24GHz=1/g' "${2}"
             ;;
+        vendor/bin/hw/macloader)
+            sed -i 's/vendor\.wifi\.dualconcurrent\.interface/vnedor\.wiff\.dualconcurreut\.iuterface/g' "${2}"
+            sed -i 's/ro\.vendor\.wifi\.sap\.interface/ru\.vnedor\.wiff\.sep\.iuterface/g' "${2}"
+            ;;
     esac
 }
 

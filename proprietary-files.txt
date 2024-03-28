@@ -92,3 +92,5 @@ vendor/firmware/qca6390/bdwlan.elf2
 vendor/firmware/qca6390/m3.bin
 vendor/firmware/qca6390/regdb.bin
 vendor/firmware/wlan/qcom_cfg.ini
+-vendor/lib/libcld80211.so
+-vendor/lib64/libcld80211.so

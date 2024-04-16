@@ -50,7 +50,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 
 # inherit from common
-include device/samsung/exynos990-common/BoardConfigCommon.mk
+include device/samsung/universal9830-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/r8s/BoardConfigVendor.mk

@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Inherit from common
-$(call inherit-product, device/samsung/exynos990-common/device-common.mk)
+$(call inherit-product, device/samsung/universal9830-common/device-common.mk)
 
 # Inherit from the proprietary version
 $(call inherit-product-if-exists, vendor/samsung/r8s/r8s-vendor.mk)

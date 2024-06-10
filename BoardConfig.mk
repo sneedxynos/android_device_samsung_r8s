@@ -15,6 +15,9 @@
 
 DEVICE_PATH := device/samsung/r8s
 
+# Audio
+BOARD_USE_CAMCORDER_QUAD_MIC := true
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true

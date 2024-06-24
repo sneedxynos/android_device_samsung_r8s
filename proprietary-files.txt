@@ -81,7 +81,6 @@ vendor/tee/00000000-0000-0000-0000-657365636f6d
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 
 # Wi-Fi
--vendor/bin/hw/macloader
 vendor/etc/init/wifi_qcom_ap_exynos.rc
 vendor/etc/init/wifi.rc
 vendor/etc/wifi/indoorchannel.info
